@@ -1,0 +1,104 @@
+/* ===== RESET (Day 7: Box Model) ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== BODY STYLES (Day 6: CSS Basics) ===== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* ===== HEADER ===== */
+header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* ===== NAVIGATION (Day 8: Flexbox) ===== */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0077b6;
+    font-weight: bold;
+}
+
+/* ===== PROFILE IMAGE ===== */
+.profile-img {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* ===== MAIN CONTENT (Day 9: Grid Layout) ===== */
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* ===== SECTION SPACING ===== */
+section {
+    margin-bottom: 30px;
+}
+
+/* ===== TABLE STYLES ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* ===== LIST STYLES ===== */
+ul, ol {
+    margin-left: 20px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+/* ===== RESPONSIVE DESIGN (Day 11: Media Queries) ===== */
+@media (min-width: 768px) {
+
+    /* Grid layout for desktop */
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 30px;
+    }
+
+    .left {
+        grid-column: 1 / 2;
+    }
+
+    .right {
+        grid-column: 2 / 3;
+    }
+}

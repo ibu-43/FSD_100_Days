@@ -1,0 +1,395 @@
+PS C:\Users\HP\Desktop\days100> git add .
+PS C:\Users\HP\Desktop\days100> git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .vscode/launch.json
+        new file:   IES Childrens day.mp4
+        new file:   JSday13.js
+        new file:   JSday14.js
+        new file:   JSday15.js
+        new file:   JSday16.js
+        new file:   JSday17.js
+        new file:   JSday18.js
+        new file:   JSday19.js
+        new file:   JSday21to24.js
+        new file:   JSday25.js
+        new file:   JSday26.js
+        new file:   JSday27.js
+        new file:   JSday28.js
+        new file:   WhatsApp Image 2026-01-10 at 7.53.21 PM.jpeg
+        new file:   day12.html
+        new file:   day13.html
+        new file:   day14.html
+        new file:   day15.html
+        new file:   day16.html
+        new file:   day17.html
+        new file:   day18.html
+        new file:   day19.html
+        new file:   day2.html
+        new file:   day21to24.html
+        new file:   day25.html
+        new file:   day26.html
+        new file:   day27.html
+        new file:   day28.html
+        new file:   day3.html
+        new file:   day4.html
+        new file:   day5.html
+        new file:   day6.html
+        new file:   day8.html
+        new file:   day9.html
+        new file:   finalhtml.html
+        new file:   pexels-kadiravsarr-15011349.jpg     
+        new file:   pexels-nataliaolivera-35592783.jpg  
+        new file:   source/Day 20 MINI Pro JS/JSday20.js
+        new file:   source/Day 20 MINI Pro JS/day20.html
+        new file:   source/Day 20 MINI Pro JS/styles20.css
+        new file:   styles12.css
+        new file:   styles6.css
+        new file:   styles7.css
+        new file:   styles8.css
+        new file:   styles9.css
+
+PS C:\Users\HP\Desktop\days100> git commit -m "Added DAYS100 full stack practice project (Day 1–28)"
+[main (root-commit) 7b346f9] Added DAYS100 full stack practice project (Day 1–28)
+ 46 files changed, 1877 insertions(+)
+ create mode 100644 .vscode/launch.json
+ create mode 100644 IES Childrens day.mp4
+ create mode 100644 JSday13.js
+ create mode 100644 JSday14.js
+ create mode 100644 JSday15.js
+ create mode 100644 JSday16.js
+ create mode 100644 JSday17.js
+ create mode 100644 JSday18.js
+ create mode 100644 JSday19.js
+ create mode 100644 JSday21to24.js
+ create mode 100644 JSday25.js
+ create mode 100644 JSday26.js
+ create mode 100644 JSday27.js
+ create mode 100644 JSday28.js
+ create mode 100644 WhatsApp Image 2026-01-10 at 7.53.21 PM.jpeg
+ create mode 100644 day12.html
+ create mode 100644 day13.html
+ create mode 100644 day14.html
+ create mode 100644 day15.html
+ create mode 100644 day16.html
+ create mode 100644 day17.html
+ create mode 100644 day18.html
+ create mode 100644 day19.html
+ create mode 100644 day2.html
+ create mode 100644 day21to24.html
+ create mode 100644 day25.html
+ create mode 100644 day26.html
+ create mode 100644 day27.html
+ create mode 100644 day28.html
+ create mode 100644 day3.html
+ create mode 100644 day4.html
+ create mode 100644 day5.html
+ create mode 100644 day6.html
+ create mode 100644 day8.html
+ create mode 100644 day9.html
+ create mode 100644 finalhtml.html
+ create mode 100644 pexels-kadiravsarr-15011349.jpg     
+ create mode 100644 pexels-nataliaolivera-35592783.jpg  
+ create mode 100644 source/Day 20 MINI Pro JS/JSday20.js
+ create mode 100644 source/Day 20 MINI Pro JS/day20.html
+ create mode 100644 source/Day 20 MINI Pro JS/styles20.css
+ create mode 100644 styles12.css
+ create mode 100644 styles6.css
+ create mode 100644 styles7.css
+ create mode 100644 styles8.css
+ create mode 100644 styles9.css
+PS C:\Users\HP\Desktop\days100> git remote add origin https://github.com/Ibrahim23CS1279/days100.git
+PS C:\Users\HP\Desktop\days100> git branch -M main
+PS C:\Users\HP\Desktop\days100> git push -u origin main
+Enumerating objects: 51, done.
+Counting objects: 100% (51/51), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (49/49), done.
+Writing objects: 100% (51/51), 160.03 MiB | 3.04 MiB/s, done.
+Total 51 (delta 11), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (11/11), done.
+remote: error: Trace: 914c9997d72826ddca5bdf7b07271e6fd8e2b8873c6684f0055f26116553afb0
+remote: error: See https://gh.io/lfs for more information.
+remote: error: File IES Childrens day.mp4 is 157.73 MB; this exceeds GitHub's file size limit of 100.00 MB      
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To https://github.com/Ibrahim23CS1279/days100.git       
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/Ibrahim23CS1279/days100.git'
+PS C:\Users\HP\Desktop\days100> git rm --cached "IES Childrens day.mp4"
+rm 'IES Childrens day.mp4'
+PS C:\Users\HP\Desktop\days100> echo *.mp4 >> .gitignore
+
+PS C:\Users\HP\Desktop\days100> echo .vscode/ >> .gitignore
+PS C:\Users\HP\Desktop\days100> git add .
+PS C:\Users\HP\Desktop\days100> git commit -m "Removed large video file and added gitignore"
+[main e195a25] Removed large video file and added gitignore
+ 1 file changed, 0 insertions(+), 0 deletions(-)        
+ create mode 100644 .gitignore
+PS C:\Users\HP\Desktop\days100> git reset --soft HEAD~1
+PS C:\Users\HP\Desktop\days100> git add .
+PS C:\Users\HP\Desktop\days100> git commit -m "Clean commit without large files"
+[main 08e2631] Clean commit without large files
+ 1 file changed, 0 insertions(+), 0 deletions(-)        
+ create mode 100644 .gitignore
+PS C:\Users\HP\Desktop\days100> git push -f origin main
+Enumerating objects: 54, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (51/51), done.
+Writing objects: 100% (54/54), 160.03 MiB | 2.48 MiB/s, done.
+Total 54 (delta 12), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (12/12), done.
+remote: error: Trace: c29deefc668bab1f9d73363a38e223d565fc535f6be4d753b65806ba6f45dcac
+remote: error: See https://gh.io/lfs for more information.
+remote: error: File IES Childrens day.mp4 is 157.73 MB; this exceeds GitHub's file size limit of 100.00 MB      
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To https://github.com/Ibrahim23CS1279/days100.git       
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/Ibrahim23CS1279/days100.git'
+PS C:\Users\HP\Desktop\days100> git reset --hard HEAD~1
+HEAD is now at 7b346f9 Added DAYS100 full stack practice project (Day 1–28)
+PS C:\Users\HP\Desktop\days100> rmdir /s /q .git
+Remove-Item : A positional parameter cannot be found 
+that accepts argument '/q'.
+At line:1 char:1
++ rmdir /s /q .git
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Re  
+   move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFo  
+   und,Microsoft.PowerShell.Commands.RemoveItemComman   
+  d
+
+PS C:\Users\HP\Desktop\days100> git add .
+PS C:\Users\HP\Desktop\days100> git commit -m "permanently delete the video"
+[main 2af4d68] permanently delete the video
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 IES Childrens day.mp4
+PS C:\Users\HP\Desktop\days100> git remote add origin https://github.com/Ibrahim23CS1279/days100.git
+error: remote origin already exists.
+PS C:\Users\HP\Desktop\days100> git remote set-url origin https://github.com/Ibrahim23CS1279/days100.git        
+PS C:\Users\HP\Desktop\days100> git branch -M main
+PS C:\Users\HP\Desktop\days100> git push -f origin main
+Enumerating objects: 53, done.
+Counting objects: 100% (53/53), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (51/51), done.
+Writing objects: 100% (53/53), 160.03 MiB | 3.04 MiB/s, done.
+Total 53 (delta 12), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (12/12), done.
+remote: error: Trace: 724866c876307d04c825d265970fac6b7afee3921a763ca0367a2c7b35d0ec47
+remote: error: See https://gh.io/lfs for more information.
+remote: error: File IES Childrens day.mp4 is 157.73 MB; this exceeds GitHub's file size limit of 100.00 MB      
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To https://github.com/Ibrahim23CS1279/days100.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/Ibrahim23CS1279/days100.git'
+PS C:\Users\HP\Desktop\days100> rmdir /s /q .git
+Remove-Item : A positional parameter cannot be found 
+that accepts argument '/q'.
+At line:1 char:1
++ rmdir /s /q .git
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Re  
+   move-Item], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFo  
+   und,Microsoft.PowerShell.Commands.RemoveItemComman   
+  d
+
+PS C:\Users\HP\Desktop\days100> Remove-Item -Recurse -Force .git
+PS C:\Users\HP\Desktop\days100> git init
+Initialized empty Git repository in C:/Users/HP/Desktop/days100/.git/
+PS C:\Users\HP\Desktop\days100> echo *.mp4 >> .gitignore
+>> echo .vscode/ >> .gitignore
+PS C:\Users\HP\Desktop\days100> dir
+
+
+    Directory: C:\Users\HP\Desktop\days100
+
+
+Mode                 LastWriteTime         Length Name 
+----                 -------------         ------ ----  
+d-----        16-01-2026     15:16                .vsco
+                                                  de    
+d-----        01-02-2026     16:17                sourc 
+                                                  e     
+-a----        20-03-2026     20:41             36 .giti
+                                                  gnore 
+-a----        23-01-2026     21:34           3275 day12 
+                                                  .html 
+-a----        25-01-2026     06:53            587 day13 
+                                                  .html 
+-a----        25-01-2026     21:13            320 day14
+                                                  .html 
+-a----        26-01-2026     22:30            286 day15 
+                                                  .html 
+-a----        28-01-2026     08:54            286 day16 
+                                                  .html 
+-a----        29-01-2026     08:22            286 day17 
+                                                  .html 
+-a----        30-01-2026     08:28            305 day18
+                                                  .html 
+-a----        30-01-2026     18:05            347 day19 
+                                                  .html 
+-a----        13-01-2026     22:20           1364 day2. 
+                                                  html  
+-a----        05-02-2026     08:59            391 day21
+                                                  to24. 
+                                                  html  
+-a----        06-02-2026     08:04            283 day25
+                                                  .html 
+-a----        08-02-2026     21:44            282 day26 
+                                                  .html 
+-a----        08-02-2026     21:52            284 day27 
+                                                  .html 
+-a----        08-02-2026     21:57            295 day28
+                                                  .html 
+-a----        14-01-2026     22:16           1765 day3. 
+                                                  html  
+-a----        16-01-2026     15:14           2098 day4. 
+                                                  html  
+-a----        16-01-2026     15:19           1027 day5.
+                                                  html  
+-a----        17-01-2026     23:05            969 day6. 
+                                                  html  
+-a----        19-01-2026     22:53            475 day8. 
+                                                  html  
+-a----        20-01-2026     20:45            477 day9.
+                                                  html  
+-a----        23-01-2026     21:33           2868 final 
+                                                  html. 
+                                                  html  
+-a----        25-01-2026     07:09            919 JSday 
+                                                  13.js 
+-a----        25-01-2026     21:13           3350 JSday 
+                                                  14.js 
+-a----        26-01-2026     23:49            982 JSday 
+                                                  15.js 
+-a----        28-01-2026     08:54           1964 JSday 
+                                                  16.js 
+-a----        29-01-2026     08:27           2013 JSday 
+                                                  17.js 
+-a----        30-01-2026     08:31            853 JSday
+                                                  18.js 
+-a----        30-01-2026     18:11           1358 JSday 
+                                                  19.js 
+-a----        05-02-2026     08:50           2945 JSday 
+                                                  21to2 
+                                                  4.js  
+-a----        06-02-2026     08:15           2304 JSday
+                                                  25.js 
+-a----        08-02-2026     21:48           2435 JSday 
+                                                  26.js 
+-a----        08-02-2026     21:54            658 JSday 
+                                                  27.js 
+-a----        08-02-2026     22:13           1826 JSday 
+                                                  28.js 
+-a----        14-01-2026     21:45        1151688 pexel
+                                                  s-kad 
+                                                  iravs 
+                                                  arr-1 
+                                                  50113 
+                                                  49.jp 
+                                                  g     
+-a----        14-01-2026     21:45        1133836 pexel 
+                                                  s-nat 
+                                                  aliao 
+                                                  liver 
+                                                  a-355 
+                                                  92783 
+                                                  .jpg  
+-a----        23-01-2026     21:33           1793 style 
+                                                  s12.c 
+                                                  ss    
+-a----        17-01-2026     23:08            618 style 
+                                                  s6.cs 
+                                                  s     
+-a----        18-01-2026     23:03            798 style
+                                                  s7.cs 
+                                                  s     
+-a----        19-01-2026     23:12            635 style 
+                                                  s8.cs 
+                                                  s     
+-a----        20-01-2026     20:53            512 style 
+                                                  s9.cs 
+                                                  s     
+-a----        16-01-2026     16:15         204669 Whats 
+                                                  App I 
+                                                  mage  
+                                                  2026- 
+                                                  01-10 
+                                                   at 7 
+                                                  .53.2 
+                                                  1 PM. 
+                                                  jpeg  
+
+
+PS C:\Users\HP\Desktop\days100> git add .
+PS C:\Users\HP\Desktop\days100> git commit -m "Clean project without large files"
+[main (root-commit) 6e19376] Clean project without large files
+ 46 files changed, 1877 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .vscode/launch.json
+ create mode 100644 JSday13.js
+ create mode 100644 JSday14.js
+ create mode 100644 JSday15.js
+ create mode 100644 JSday16.js
+ create mode 100644 JSday17.js
+ create mode 100644 JSday18.js
+ create mode 100644 JSday19.js
+ create mode 100644 JSday21to24.js
+ create mode 100644 JSday25.js
+ create mode 100644 JSday26.js
+ create mode 100644 JSday27.js
+ create mode 100644 JSday28.js
+ create mode 100644 WhatsApp Image 2026-01-10 at 7.53.21 PM.jpeg
+ create mode 100644 day12.html
+ create mode 100644 day13.html
+ create mode 100644 day14.html
+ create mode 100644 day15.html
+ create mode 100644 day16.html
+ create mode 100644 day17.html
+ create mode 100644 day18.html
+ create mode 100644 day19.html
+ create mode 100644 day2.html
+ create mode 100644 day21to24.html
+ create mode 100644 day25.html
+ create mode 100644 day26.html
+ create mode 100644 day27.html
+ create mode 100644 day28.html
+ create mode 100644 day3.html
+ create mode 100644 day4.html
+ create mode 100644 day5.html
+ create mode 100644 day6.html
+ create mode 100644 day8.html
+ create mode 100644 day9.html
+ create mode 100644 finalhtml.html
+ create mode 100644 pexels-kadiravsarr-15011349.jpg     
+ create mode 100644 pexels-nataliaolivera-35592783.jpg  
+ create mode 100644 source/Day 20 MINI Pro JS/JSday20.js
+ create mode 100644 source/Day 20 MINI Pro JS/day20.html
+ create mode 100644 source/Day 20 MINI Pro JS/styles20.css
+ create mode 100644 styles12.css
+ create mode 100644 styles6.css
+ create mode 100644 styles7.css
+ create mode 100644 styles8.css
+ create mode 100644 styles9.css
+PS C:\Users\HP\Desktop\days100> git commit -m "Clean project without large files"
+On branch main
+PS C:\Users\HP\Desktop\days100> git branch -M main
+PS C:\Users\HP\Desktop\days100> git push -u origin main
+Enumerating objects: 51, done.
+Counting objects: 100% (51/51), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (48/48), done.
+Writing objects: 100% (51/51), 2.35 MiB | 1.37 MiB/s, done.
+Total 51 (delta 11), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (11/11), done.
+To https://github.com/Ibrahim23CS1279/days100.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\HP\Desktop\days100>

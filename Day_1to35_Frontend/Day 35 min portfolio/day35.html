@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohammed Ibrahim J | Portfolio</title>
+  <link rel="stylesheet" href="styles35.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <span class="nav-logo">Mohammed Ibrahim J</span>
+      <ul class="nav-links">
+        <li><a onclick="scrollTo('edu')">Education</a></li>
+        <li><a onclick="scrollTo('skills')">Skills</a></li>
+        <li><a onclick="scrollTo('projects')">Projects</a></li>
+        <li><a onclick="scrollTo('achievements')">Achievements</a></li>
+      </ul>
+      <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+    </div>
+    <ul class="mobile-menu" id="mobileMenu">
+      <li><a onclick="scrollTo('edu');toggleMenu()">Education</a></li>
+      <li><a onclick="scrollTo('skills');toggleMenu()">Skills</a></li>
+      <li><a onclick="scrollTo('projects');toggleMenu()">Projects</a></li>
+      <li><a onclick="scrollTo('achievements');toggleMenu()">Achievements</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="avatar">MIJ</div>
+      <h1>Mohammed Ibrahim J</h1>
+      <p class="hero-bio">Enthusiastic Computer Science student with knowledge of programming, data structures, and web technologies. Interested in developing scalable applications and improving problem-solving skills through real-world projects.</p>
+      <div class="contact-row">
+        <a class="contact-pill" href="tel:+918056052140">+91 8056052140</a>
+        <a class="contact-pill" href="mailto:mohammedibrahimj23012@gmail.com">mohammedibrahimj23012@gmail.com</a>
+        <a class="contact-pill" href="https://www.linkedin.com/in/mohammedibrahim23rc1279" target="_blank">LinkedIn</a>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="edu">
+      <h2 class="sec-title">Education</h2>
+      <div class="card">
+        <div class="edu-item">
+          <div class="edu-left">
+            <h3>Bachelor of Engineering</h3>
+            <p>St. Joseph's Institute of Technology</p>
+          </div>
+          <div class="edu-right">
+            <div>2023 – 2027</div>
+            <div class="highlight">CGPA: 9.19</div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="edu-item">
+          <div class="edu-left">
+            <h3>Secondary School</h3>
+            <p>Don Bosco Higher Secondary School</p>
+          </div>
+          <div class="edu-right">
+            <div>2016 – 2023</div>
+            <div class="highlight">HSC: 89.2% &nbsp;·&nbsp; SSLC: 89.2%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2 class="sec-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h4>Back-end</h4>
+          <span class="badge purple">Python</span>
+          <span class="badge purple">C</span>
+          <span class="badge purple">Java</span>
+        </div>
+        <div class="skill-card">
+          <h4>Front-end</h4>
+          <span class="badge purple">HTML</span>
+          <span class="badge purple">CSS</span>
+          <span class="badge purple">JavaScript</span>
+          <span class="badge purple">React</span>
+        </div>
+        <div class="skill-card">
+          <h4>Productivity Tools</h4>
+          <span class="badge teal">MS Word</span>
+          <span class="badge teal">Excel</span>
+          <span class="badge teal">PowerPoint</span>
+        </div>
+        <div class="skill-card">
+          <h4>Data & Tools</h4>
+          <span class="badge teal">MySQL</span>
+          <span class="badge teal">Jupyter Notebook</span>
+        </div>
+      </div>
+
+      <h2 class="sec-title" style="margin-top: 2rem;">Strengths & Soft Skills</h2>
+      <div class="card badge-cloud">
+        <span class="badge purple">Problem Solving</span>
+        <span class="badge purple">Self Motivation</span>
+        <span class="badge purple">Time Management</span>
+        <span class="badge purple">Freelancing</span>
+        <span class="badge teal">Team Work</span>
+        <span class="badge teal">Positive Attitude</span>
+        <span class="badge teal">Communication Skills</span>
+        <span class="badge teal">Content Creator</span>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2 class="sec-title">Projects</h2>
+      <div class="proj-card">
+        <h3>Parmi Mess — UI/UX Design</h3>
+        <div class="proj-sub">Figma · UI/UX</div>
+        <p>Designed a user-friendly food ordering app with seamless navigation for menu browsing, food selection, and checkout. Focused on enhancing user experience with interactive prototypes, modern design elements, and accessibility.</p>
+        <div class="proj-tags">
+          <span class="badge purple">UI/UX Design</span>
+          <span class="badge purple">Wireframing</span>
+          <span class="badge purple">Prototyping</span>
+          <span class="badge purple">Figma</span>
+          <span class="badge purple">Design Thinking</span>
+        </div>
+      </div>
+      <div class="proj-card">
+        <h3>Personal Portfolio Website</h3>
+        <div class="proj-sub">HTML · CSS · JavaScript</div>
+        <p>Designed and developed a personal portfolio to showcase projects, skills, and achievements. Implemented a clean and responsive UI to improve accessibility across devices. Structured sections for projects, achievements, and contact information.</p>
+        <div class="proj-tags">
+          <span class="badge teal">HTML</span>
+          <span class="badge teal">CSS</span>
+          <span class="badge teal">JavaScript</span>
+          <span class="badge teal">UI Design</span>
+          <span class="badge teal">Responsive Design</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section id="achievements">
+      <h2 class="sec-title">Achievements</h2>
+      <div class="card">
+        <ul class="achieve-list">
+          <li><div class="dot"></div><span>Completed NPTEL courses in Programming in Java, Python for Data Science, and Database Management Systems.</span></li>
+          <li><div class="dot"></div><span>Won 1st prize in UI/UX Design at Sriram Engineering College Technical Symposium.</span></li>
+          <li><div class="dot"></div><span>Participated in a 36-hour Hackathon at New Prince Shri Bhavani College of Engineering and Technology.</span></li>
+          <li><div class="dot"></div><span>Solved 1000+ problems on SkillRack, 300+ on LeetCode, and 200+ on CodeChef (completed the 30-Day Java Coding Challenge).</span></li>
+          <li><div class="dot"></div><span>Awarded the Branch Topper Certificate for academic excellence (CGPA above 9).</span></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Mohammed Ibrahim J · Built with HTML, CSS & JS</p>
+  </footer>
+
+  <script src="JSday35.js"></script>
+</body>
+</html>

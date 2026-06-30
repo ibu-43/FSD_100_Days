@@ -1,0 +1,30 @@
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15%;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: blue;
+}
+#box3{
+    background-color: green;
+}
+#box4{
+    background-color: yellow;
+}
+
+/* Grid Container */
+.container{
+    display: grid;
+    border: black 10px solid;
+    height: 70vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    grid-row: auto;
+}

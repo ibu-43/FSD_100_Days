@@ -1,0 +1,23 @@
+.product{
+  background-color: antiquewhite;
+  border-radius: 5px;
+  max-width: 8cm;
+  max-height: 10cm;
+  border: black solid 1px;
+  display: inline-block;
+  padding: 2px;
+  margin: 10px;
+  text-align: center;
+}
+*{
+  text-align: center;
+}
+.product img{
+  width: 5cm;
+}
+.navbar{
+  background-color: rgb(28, 129, 129);
+}
+.footer{
+  background-color: greenyellow;
+}

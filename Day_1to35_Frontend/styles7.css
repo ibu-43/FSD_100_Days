@@ -1,0 +1,39 @@
+/*
+
++-----------------------+
+|      Margin           |
+|  +-----------------+  |
+|  |   Border        |  |
+|  | +-------------+ |  |
+|  | |  Padding    | |  |
+|  | | +---------+ | |  |
+|  | | | Content | | |  |
+|  | | +---------+ | |  |
+|  | +-------------+ |  |
+|  +-----------------+  |
++-----------------------+
+
+This CSS file demonstrates the box model in CSS, including margin, border, padding, and content areas.
+*/  
+
+/* Content Area */
+h1{
+    background-color: lightblue;
+    text-align: center;
+}
+
+/* Padding Area */
+h1{
+    padding: 100px 100px 100px 100px; /* top right bottom left */
+}
+
+/* Border Area */
+h1{
+    border-style: dotted;
+    border-radius: 50%;
+}
+
+/* Margin Area */
+h1{
+    margin: 10px 50px 20px 80px; /* top right bottom left */
+}

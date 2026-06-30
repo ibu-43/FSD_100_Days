@@ -1,0 +1,39 @@
+/*
+    Simple Selector Types in CSS
+    1. Tags selector (Element Selector)
+    2. Class selector
+    3. ID selector
+    4. Universal selector
+    5. Grouping selector
+*/
+
+
+a{
+    color: red;
+    text-align: right;
+    background-color: yellow;
+}
+
+#title{
+    color: brown;
+    text-align: center;
+    background-color: pink;
+}
+
+a.project-link{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+*{
+    background-color: lightskyblue;
+}
+
+p,h3{
+    font-family: Arial, sans-serif;
+}
+
+.home{
+    background-image: url("pexels-kadiravsarr-15011349.jpg");
+    background-position: left;
+}

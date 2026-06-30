@@ -1,0 +1,38 @@
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15%;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: blue;
+}
+#box3{
+    background-color: green;
+}
+#box4{
+    background-color: yellow;
+}
+/* Flexbox container 
+
+display: flex;
+justify-content → horizontal
+align-items → vertical
+align-content → multi-line vertical
+flex-wrap → multi-line enable/disable
+
+*/
+
+.container{
+    display: flex;
+    border: black 10px solid;
+    height: 90vh;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}

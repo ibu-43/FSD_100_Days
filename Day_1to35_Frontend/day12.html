@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ===== META TAGS (Day 1: How web pages work) ===== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== TITLE ===== -->
+    <title>Final Project - Resume</title>
+
+    <!-- ===== EXTERNAL CSS LINK (Day 6: CSS Basics) ===== -->
+    <link rel="stylesheet" href="styles12.css">
+</head>
+<body>
+
+    <!-- ===== SEMANTIC HEADER (Day 5: Semantic HTML) ===== -->
+    <header>
+        <h1>MOHAMMED IBRAHIM J</h1>
+    </header>
+
+    <!-- ===== NAVIGATION (Day 5 + Day 8 Flexbox) ===== -->
+    <nav>
+        <a href="https://linkedin.com/in/mohammedibrahim-23cs1279" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Ibrahim23CS1279" target="_blank">GitHub</a>
+        <a href="mailto:mohammedibrahimghf23012@gmail.com">Email</a>
+    </nav>
+
+    <hr>
+
+    <!-- ===== IMAGE TAG (Day 3: Images) ===== -->
+    <img src="WhatsApp Image 2026-01-10 at 7.53.21 PM.jpeg"
+         alt="Ibrahim Photo"
+         class="profile-img">
+
+    <!-- ===== MAIN CONTENT (Semantic HTML) ===== -->
+    <main>
+
+        <!-- LEFT SECTION -->
+        <section class="left">
+            <h2>Profile</h2>
+            <p>
+                I am currently a Pre-Final Year Student pursuing a Bachelor of Engineering
+                in Computer Science & Engineering at St. Joseph's Institute Of Technology.
+            </p>
+
+            <!-- ===== EDUCATION (Lists + Tables) ===== -->
+            <h2>Education</h2>
+
+            <ol>
+                <li>
+                    <h4>Bachelor of Engineering</h4>
+                    <p>St. Joseph's Institute Of Technology</p>
+                    <p>CGPA: 9.19</p>
+                </li>
+            </ol>
+
+            <!-- ===== TABLE (Day 3: Tables) ===== -->
+            <table>
+                <tr>
+                    <th>Semester</th>
+                    <th>CGPA</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>8.25</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td rowspan="2">8.5</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>8.7</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- RIGHT SECTION -->
+        <section class="right">
+
+            <!-- ===== LISTS (Day 2: Lists) ===== -->
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>Java</li>
+                <li>Python</li>
+            </ul>
+
+            <!-- ===== DESCRIPTION LIST (Day 3) ===== -->
+            <h2>Projects</h2>
+            <dl>
+                <dt>Parmi Mess</dt>
+                <dd>
+                    <li>Web application for mess order management</li>
+                    <li>Used HTML, CSS, JavaScript</li>
+                </dd>
+            </dl>
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER (Semantic HTML) ===== -->
+    <footer>
+        <p>&copy; 2024 Mohammed Ibrahim J</p>
+    </footer>
+
+</body>
+</html>

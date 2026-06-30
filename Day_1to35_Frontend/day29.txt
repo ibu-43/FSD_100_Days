@@ -1,0 +1,106 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\HP> git --version
+git version 2.50.0.windows.1
+PS C:\Users\HP> git config --global user.name "MOHAMMED IBRAHIM J"
+PS C:\Users\HP> git config --global user.email "23cs1279@stjosephstechnology.ac.in"
+PS C:\Users\HP> git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=main
+core.editor="C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin\code" --wait
+user.name=MOHAMMED IBRAHIM J
+user.email=23cs1279@stjosephstechnology.ac.in
+PS C:\Users\HP> mkdir fsd1
+
+
+    Directory: C:\Users\HP
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20-03-2026     19:49                fsd1
+
+
+PS C:\Users\HP> cd fsd1
+PS C:\Users\HP\fsd1> git init
+Initialized empty Git repository in C:/Users/HP/fsd1/.git/
+PS C:\Users\HP\fsd1> echo "My first Git Project"> index.txt
+PS C:\Users\HP\fsd1> git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\HP\fsd1> git add .
+PS C:\Users\HP\fsd1> git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.txt
+
+PS C:\Users\HP\fsd1> git commit -m "First commit"
+[main (root-commit) 87aeae3] First commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.txt
+PS C:\Users\HP\fsd1> git log
+commit 87aeae3d9105b72795bf715c012f666dca01c934 (HEAD -> main)
+Author: MOHAMMED IBRAHIM J <23cs1279@stjosephstechnology.ac.in>
+Date:   Fri Mar 20 19:57:18 2026 +0530
+
+    First commit
+PS C:\Users\HP\fsd1> git remote add origin https://github.com/MOHAMMED-IBRAHIM-J-312423104140/fsd1.git
+PS C:\Users\HP\fsd1> git branch -M main
+PS C:\Users\HP\fsd1> git push -u origin main
+remote: Permission to MOHAMMED-IBRAHIM-J-312423104140/fsd1.git denied to Ibrahim23CS1279.
+fatal: unable to access 'https://github.com/MOHAMMED-IBRAHIM-J-312423104140/fsd1.git/': The requested URL returned error: 403
+PS C:\Users\HP\fsd1> git remote add origin https://github.com/Ibrahim23CS1279/fsd1.git
+error: remote origin already exists.
+PS C:\Users\HP\fsd1> git remote set-url origin https://github.com/Ibrahim23CS1279/fsd1.git
+PS C:\Users\HP\fsd1> git remote -v
+origin  https://github.com/Ibrahim23CS1279/fsd1.git (fetch)
+origin  https://github.com/Ibrahim23CS1279/fsd1.git (push)
+PS C:\Users\HP\fsd1> git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 277 bytes | 138.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Ibrahim23CS1279/fsd1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\HP\fsd1> echo "learning fit is fun!" >> index.txt
+PS C:\Users\HP\fsd1> git add .
+PS C:\Users\HP\fsd1> git commit -m "Updated file"
+[main 748a3ae] Updated file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\HP\fsd1> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 338 bytes | 338.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Ibrahim23CS1279/fsd1.git
+   87aeae3..748a3ae  main -> main
+PS C:\Users\HP\fsd1>
